@@ -8,7 +8,7 @@ import {   FaInstagram, FaLinkedinIn, FaGithub, FaArrowRight  } from 'react-icon
 
 const Info = () => {
   return (
-    <div className="flex flex-col  pl-25 gap-6 z-20 absolute w-full h-100 mt-50 ">
+    <div className="flex flex-col  pl-15 gap-6 z-20 absolute w-full h-100 mt-50 ">
       <div className="bg-[#1D89BD] w-[145px] h-[35px] px-2 text-[15px] text-white mt-2 flex items-center  ">
         {" "}
         5 years experience

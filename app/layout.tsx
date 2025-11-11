@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="flex justify-center gap-82 items-center p-5  z-30 absolute w-full text-white mt-1">
+        <div className="flex justify-center gap-72 items-center p-5  z-30 absolute w-full text-white mt-1">
           <div>
             <Link href={"/"}>
            <Image src={"/logo .png"} alt="logo"  width={140} height={20}/>
@@ -38,7 +38,7 @@ export default function RootLayout({
           </div>
           
           <div className="flex gap-8 font-oxanium">
-             <Link href="/" className="nav ">
+            <Link href="/" className="nav ">
               Home
             </Link>
             <Link href="/about" className="nav">
